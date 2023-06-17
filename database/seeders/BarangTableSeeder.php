@@ -53,6 +53,33 @@ class BarangTableSeeder extends Seeder
                 'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
                 'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
             ),
+            array(
+                'nama_barang' => "Sabun Mandi",
+                'stok' => '100',
+                'jumlah_terjual' => '30',
+                'tgl_transaksi' => Carbon::create('2021', '05', '11'),
+                'jenis_barang' => 'Pembersih',
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+                'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ),
+            array(
+                'nama_barang' => "Sampo",
+                'stok' => '100',
+                'jumlah_terjual' => '25',
+                'tgl_transaksi' => Carbon::create('2021', '05', '12'),
+                'jenis_barang' => 'Pembersih',
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+                'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ),
+            array(
+                'nama_barang' => "Teh",
+                'stok' => '81',
+                'jumlah_terjual' => '5',
+                'tgl_transaksi' => Carbon::create('2021', '05', '11'),
+                'jenis_barang' => 'Konsumsi',
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
+                'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ),
             ));
     }
 }
