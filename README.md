@@ -73,7 +73,7 @@ php artisan serve
 
 ## Developments
 1. [Routes Viewer](http://127.0.0.1:8000/admin)   
-Lihat list routes `/admin` langsung dari browser. Tampilan halaman login akan tampil.
+Lihat list routes `http://127.0.0.1:8000/admin` langsung dari browser. Tampilan halaman login akan tampil.
 Login menggunakan :
 
 Email : admin@example.com
