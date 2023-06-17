@@ -1,4 +1,4 @@
-# [Laravel 9.52 MongoDB](https://github.com/GallanSJK/test-qtasnim)
+# [Laravel 9.52 MySQL](https://github.com/GallanSJK/test-qtasnim)
 
 Laravel 9.52 + PHP 8 With MySQL (Test PT. QTASNIM DIGITAL TEKNOLOGI).
 
